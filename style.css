@@ -1,24 +1,9 @@
 body {
   margin-left: 0 !important;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
-.logo {
-  background-color: #0b9586;
-  width: 1240px;
-  height: 86px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 16px;
 
-  padding-bottom: 16px;
-  padding-left: 120px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 999999999;
-}
 /* nav */
 
 .logo_img {
@@ -608,8 +593,7 @@ svg {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1440px;
-  height: 505px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1368,11 +1352,23 @@ footer .footer_one .footer_one_one ul li {
     letter-spacing: 0px;
     color: #ffffff;
   }
-  
   .logo {
-    width: 100%;
+  background-color: #0b9586;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+
+  padding-bottom: 16px;
+  padding-left: 120px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999999;
+      width: 100%;
     padding: 16px 20px;
-  }
+}
+ 
   .logo_img {
     width: 120px;
     height: auto;
@@ -1634,6 +1630,7 @@ nav a {
   }
 
   .logo {
+    
     padding-right: 50px;
     padding-left: 0px;
     width: 95%;
